@@ -35,7 +35,8 @@ namespace SST {
 //! signal of SST event
 using Signal = std::uint16_t;
 
-struct Evt {
+class Evt {
+public:
     Signal sig;
 };
 
